@@ -10,7 +10,6 @@ This repository provides an end-to-end lightweight fine-tuning pipeline using GR
 - Model evaluation via prompt completion comparisons
 - Easily adaptable to your own dataset (just replace `data/train.json` with the required format)
 
----
 
 ## 📁 Project Structure
 ```
@@ -48,7 +47,6 @@ reasoning_finetune/
 ├── main.py                    # Entry point for model training
 └── README.md                  # To be added
 ``
----
 
 ## 📦 Installation
 
@@ -56,7 +54,6 @@ reasoning_finetune/
 pip install -r requirements.txt
 ```
 
----
 
 ## 🧑‍🏫 Usage
 
