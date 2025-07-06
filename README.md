@@ -13,6 +13,7 @@ This repository provides an end-to-end lightweight fine-tuning pipeline using GR
 ---
 
 ## 📁 Project Structure
+```
 reasoning_finetune/
 ├── configs/                   # Configuration scripts for GRPO training
 │   └── grpo_config.py         
@@ -46,7 +47,7 @@ reasoning_finetune/
 ├── requirements.txt           # All dependencies listed here
 ├── main.py                    # Entry point for model training
 └── README.md                  # To be added
-
+``
 ---
 
 ## 📦 Installation
