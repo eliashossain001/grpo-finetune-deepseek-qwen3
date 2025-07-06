@@ -1,0 +1,22 @@
+# === Core Packages ===
+torch>=2.1.2
+transformers>=4.41.1
+datasets>=2.19.0
+accelerate>=0.30.1
+trl>=0.8.6
+unsloth>=2024.6.1
+
+# === GRPO + vLLM Integration ===
+vllm>=0.4.2
+
+# === Reward & Evaluation Utils ===
+langid==1.1.6
+safetensors>=0.4.3
+scikit-learn>=1.5.0
+tqdm>=4.66.4
+nltk>=3.8.1
+rouge-score>=0.1.2
+bert-score>=0.3.13
+
+# === Other Utilities ===
+numpy>=1.26.4

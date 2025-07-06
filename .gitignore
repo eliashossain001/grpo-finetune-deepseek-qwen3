@@ -1,0 +1,57 @@
+# === Python cache files ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# === Jupyter Notebooks checkpoints ===
+.ipynb_checkpoints/
+
+# === Virtual environment ===
+.venv/
+env/
+venv/
+.eliasenv/
+.codeenv/
+*.egg-info/
+
+# === IDEs and editors ===
+.vscode/
+.idea/
+
+# === Mac/Windows OS files ===
+.DS_Store
+Thumbs.db
+
+# === Compiled binaries / logs / misc ===
+*.log
+*.out
+*.tmp
+*.swp
+
+# === Model training outputs ===
+outputs/
+*.ckpt
+*.safetensors
+*.pt
+
+# === Checkpoints or export artifacts ===
+*.bin
+*.gguf
+*.onnx
+*.h5
+
+# === Tokenizers cache ===
+tokenizer.model
+tokenizer.json
+
+# === Hugging Face Hub Cache ===
+~/.cache/huggingface/
+~/.huggingface/
+
+# === HF secrets ===
+*.env
+.env
+hf_cache/
+secrets/
